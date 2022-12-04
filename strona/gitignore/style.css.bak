@@ -1,0 +1,125 @@
+body
+{
+	margin: 0;
+	background-color: #2F3336;
+	color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+h1.logo
+{
+	font-size: 44px;
+	font-weight: 700;
+	color: #ddd;
+	text-align: center;
+	text-transform:uppercase;
+	letter-spacing:5px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+nav
+{
+	background-color: #1c74b2;
+	text-align: center;
+}
+
+.menu
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	font-size: 18px;
+	min-height: 38px;
+	line-height: 200%;
+}
+
+.menu > li
+{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-right: 1px dashed #0a2b42;
+}
+
+.menu > li:first-child
+{
+	border-left: 1px dashed #0a2b42;
+}
+.menu a 
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu a:hover
+{
+	color: #0a2b42;
+}
+
+.categories
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	padding: 0;
+	text-align: center;
+}
+
+h1
+{	
+	font-size: 44px;
+	font-weight: 400;
+	color: #1c74b2;
+}
+
+.photo
+{
+	display: inline-block;
+	margin-top: 10px;
+	
+}
+
+figure
+{
+	margin: 8px;
+	padding: 0;
+}
+
+figcaption
+{
+	margin-top: 8px;
+	padding: 0;
+}
+
+.autor a
+{
+	opacity:0.9;
+}
+
+.autor a:hover
+{
+	opacity: 1;
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+}
+.entries
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	padding-top: 10px;
+	padding-bottom: 80px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+#nowe
+{
+	background-color: #111111;
+}
